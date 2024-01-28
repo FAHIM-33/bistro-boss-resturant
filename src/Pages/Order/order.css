@@ -1,0 +1,23 @@
+.order-page .react-tabs__tab {
+    display: inline-block;
+    padding: 5px 10px;
+    flex-grow: 1;
+    text-align: center;
+    transition: background 0.2s ,border-color 0.2s;
+    
+
+}
+
+.order-page .react-tabs__tab--selected {
+    border-radius: 8px 8px 0 0 ;
+    background: #fff;
+    border-color: #aaa;
+    color: black;
+}
+
+.order-page .react-tabs__tab:focus:after {
+    content: '';
+    position: static;
+    inset: 0;
+    background: #fff;
+}

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar {
+    transition: transform 0.3s;
+}
+
+.navbar.gone {
+    transform: translateY(-100%);
+}
+
+
+ 
+.brr {
+    border: 1px solid red;
+}
+
+.brb {
+    border: 1px solid blue;
+}
